@@ -1,0 +1,11 @@
+1)String = "Hello"
+2)Integer = 10
+3)FLoat = 10,3
+4)Byte = bytes('Gut'.encode())
+5)List = [1, 10, 100]
+6)Tuple = tuple('Hello')
+7)Set = set('Good')
+8)Frozen_Set = frozenset('good')
+9)Dictionary = {1: 'gut', 2:'GUT'}
+
+10)
