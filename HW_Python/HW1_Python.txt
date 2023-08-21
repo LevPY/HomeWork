@@ -1,11 +1,43 @@
-1)String = "Hello"
-2)Integer = 10
-3)FLoat = 10,3
-4)Byte = bytes('Gut'.encode())
-5)List = [1, 10, 100]
-6)Tuple = tuple('Hello')
-7)Set = set('Good')
-8)Frozen_Set = frozenset('good')
-9)Dictionary = {1: 'gut', 2:'GUT'}
+String = "Hello"
+Integer = 10
+FLoat = 10,3
+Byte = bytes('Gut'.encode())
+List = [1, 10, 100]
+Tuple = tuple('Hello')
+Set = set('Good')
+Frozen_Set = frozenset('good')
+Dictionary = {1: 'gut', 2:'GUT'}
 
-10)
+print('string:', String)
+print('integer:', Integer)
+print('float:', FLoat)
+print('bytes:', Byte)
+print('list:', List)
+print('tuple:', Tuple)
+print('set:', Set)
+print('frozen set:', Frozen_Set)
+print('dictionary:', Dictionary)
+
+Str_1 = 'Hel'
+Str_2 = 'lo'
+Str_3 = Str_1 + Str_2
+print(Str_3)
+
+Int_1 = 10
+Int_2 = 20
+Int_3 = Int_1 + Int_2
+print(Int_3)
+
+Int_4 = Int_2 / Int_1
+print(Int_4)
+
+Int_5 = Int_1 * Int_2
+print(Int_5)
+
+Int_6 = Int_2 // Int_1
+print(Int_6)
+
+Int_7 = Int_2 % Int_1
+print(Int_7)
+
+print((7 + 12) ** 3 + 7 * 4 - 44 / 2 ** 4)
